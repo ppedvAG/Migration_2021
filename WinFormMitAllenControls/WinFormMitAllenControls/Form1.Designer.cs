@@ -30,31 +30,31 @@ namespace WinFormMitAllenControls
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup2 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup3 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewGroup listViewGroup4 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup5 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup6 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "AAAA",
             "BBBBB"}, 2);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("AAAA", 3);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("FFFFF");
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("CCCCC", "thumb_up.png");
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node1");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node2");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2});
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Node4");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node5");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Node3", new System.Windows.Forms.TreeNode[] {
-            treeNode4,
-            treeNode5});
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node7");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node8");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Node6", new System.Windows.Forms.TreeNode[] {
-            treeNode7,
-            treeNode8});
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem("AAAA", 3);
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem("FFFFF");
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem("CCCCC", "thumb_up.png");
+            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Node1");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Node2");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
+            treeNode10,
+            treeNode11});
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Node4");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Node5");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Node3", new System.Windows.Forms.TreeNode[] {
+            treeNode13,
+            treeNode14});
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Node7");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Node8");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Node6", new System.Windows.Forms.TreeNode[] {
+            treeNode16,
+            treeNode17});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.button1 = new System.Windows.Forms.Button();
@@ -132,8 +132,10 @@ namespace WinFormMitAllenControls
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.printUserControl1 = new WinFormMitAllenControls.PrintUserControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.dataSetDataBindingUserControl1 = new WinFormMitAllenControls.DataSetDataBindingUserControl();
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
@@ -154,8 +156,13 @@ namespace WinFormMitAllenControls
             this.droDownButtonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
             this.splitButtonToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataSetDataBindingUserControl1 = new WinFormMitAllenControls.DataSetDataBindingUserControl();
-            this.printUserControl1 = new WinFormMitAllenControls.PrintUserControl();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
@@ -175,6 +182,8 @@ namespace WinFormMitAllenControls
             this.toolStripContainer1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // backgroundWorker1
@@ -186,10 +195,10 @@ namespace WinFormMitAllenControls
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(2, 2);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(4, 5);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 34);
+            this.button1.Size = new System.Drawing.Size(241, 83);
             this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -198,10 +207,10 @@ namespace WinFormMitAllenControls
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(2, 40);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox1.Location = new System.Drawing.Point(4, 98);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.Size = new System.Drawing.Size(160, 36);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -209,19 +218,19 @@ namespace WinFormMitAllenControls
             // checkedListBox1
             // 
             this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(2, 61);
-            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.checkedListBox1.Location = new System.Drawing.Point(4, 144);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(207, 64);
+            this.checkedListBox1.Size = new System.Drawing.Size(444, 148);
             this.checkedListBox1.TabIndex = 3;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(2, 129);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox1.Location = new System.Drawing.Point(4, 302);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(207, 21);
+            this.comboBox1.Size = new System.Drawing.Size(444, 40);
             this.comboBox1.TabIndex = 4;
             // 
             // contextMenuStrip1
@@ -230,28 +239,28 @@ namespace WinFormMitAllenControls
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.halloIchBinDasContextmenüToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(242, 26);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(425, 42);
             // 
             // halloIchBinDasContextmenüToolStripMenuItem
             // 
             this.halloIchBinDasContextmenüToolStripMenuItem.Name = "halloIchBinDasContextmenüToolStripMenuItem";
-            this.halloIchBinDasContextmenüToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
+            this.halloIchBinDasContextmenüToolStripMenuItem.Size = new System.Drawing.Size(424, 38);
             this.halloIchBinDasContextmenüToolStripMenuItem.Text = "Hallo, ich bin das Contextmenü";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(2, 154);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
+            this.dateTimePicker1.Location = new System.Drawing.Point(4, 352);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(207, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(444, 39);
             this.dateTimePicker1.TabIndex = 7;
             // 
             // domainUpDown1
             // 
-            this.domainUpDown1.Location = new System.Drawing.Point(2, 178);
-            this.domainUpDown1.Margin = new System.Windows.Forms.Padding(2);
+            this.domainUpDown1.Location = new System.Drawing.Point(4, 401);
+            this.domainUpDown1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.domainUpDown1.Name = "domainUpDown1";
-            this.domainUpDown1.Size = new System.Drawing.Size(215, 20);
+            this.domainUpDown1.Size = new System.Drawing.Size(466, 39);
             this.domainUpDown1.TabIndex = 8;
             this.domainUpDown1.Text = "domainUpDown1";
             // 
@@ -291,29 +300,29 @@ namespace WinFormMitAllenControls
             this.flowLayoutPanel1.Controls.Add(this.label2);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(2, 2);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 5);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1279, 608);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(2773, 1537);
             this.flowLayoutPanel1.TabIndex = 9;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(2, 200);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(4, 445);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(79, 32);
             this.label1.TabIndex = 9;
             this.label1.Text = "label1";
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(2, 213);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.linkLabel1.Location = new System.Drawing.Point(4, 477);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(55, 13);
+            this.linkLabel1.Size = new System.Drawing.Size(122, 32);
             this.linkLabel1.TabIndex = 10;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "linkLabel1";
@@ -321,52 +330,53 @@ namespace WinFormMitAllenControls
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(2, 228);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.listBox1.ItemHeight = 32;
+            this.listBox1.Location = new System.Drawing.Point(4, 514);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(207, 56);
+            this.listBox1.Size = new System.Drawing.Size(444, 132);
             this.listBox1.TabIndex = 11;
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(2, 288);
-            this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.maskedTextBox1.Location = new System.Drawing.Point(4, 656);
+            this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(68, 20);
+            this.maskedTextBox1.Size = new System.Drawing.Size(143, 39);
             this.maskedTextBox1.TabIndex = 12;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(2, 312);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2);
+            this.numericUpDown1.Location = new System.Drawing.Point(4, 705);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(215, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(466, 39);
             this.numericUpDown1.TabIndex = 14;
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(2, 336);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
+            this.progressBar1.Location = new System.Drawing.Point(4, 754);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(67, 15);
+            this.progressBar1.Size = new System.Drawing.Size(145, 37);
             this.progressBar1.TabIndex = 15;
             // 
             // progressBar2
             // 
-            this.progressBar2.Location = new System.Drawing.Point(2, 355);
-            this.progressBar2.Margin = new System.Windows.Forms.Padding(2);
+            this.progressBar2.Location = new System.Drawing.Point(4, 801);
+            this.progressBar2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(67, 15);
+            this.progressBar2.Size = new System.Drawing.Size(145, 37);
             this.progressBar2.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar2.TabIndex = 16;
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(2, 374);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton1.Location = new System.Drawing.Point(4, 848);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.Size = new System.Drawing.Size(185, 36);
             this.radioButton1.TabIndex = 17;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "radioButton1";
@@ -374,44 +384,44 @@ namespace WinFormMitAllenControls
             // 
             // hScrollBar1
             // 
-            this.hScrollBar1.Location = new System.Drawing.Point(0, 393);
+            this.hScrollBar1.Location = new System.Drawing.Point(0, 889);
             this.hScrollBar1.Name = "hScrollBar1";
-            this.hScrollBar1.Size = new System.Drawing.Size(117, 26);
+            this.hScrollBar1.Size = new System.Drawing.Size(254, 26);
             this.hScrollBar1.TabIndex = 11;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Red;
-            this.panel1.Location = new System.Drawing.Point(2, 421);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(4, 920);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(66, 29);
+            this.panel1.Size = new System.Drawing.Size(143, 72);
             this.panel1.TabIndex = 12;
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(225, 6);
-            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(6);
+            this.monthCalendar1.Location = new System.Drawing.Point(13, 1012);
+            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(13, 15, 13, 15);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 13;
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Location = new System.Drawing.Point(221, 176);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2);
+            this.splitContainer1.Location = new System.Drawing.Point(4, 1349);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.splitContainer1.Name = "splitContainer1";
-            this.splitContainer1.Size = new System.Drawing.Size(100, 65);
-            this.splitContainer1.SplitterDistance = 33;
-            this.splitContainer1.SplitterWidth = 3;
+            this.splitContainer1.Size = new System.Drawing.Size(217, 160);
+            this.splitContainer1.SplitterDistance = 71;
+            this.splitContainer1.SplitterWidth = 7;
             this.splitContainer1.TabIndex = 16;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WinFormMitAllenControls.Properties.Resources.umbrella;
-            this.pictureBox1.Location = new System.Drawing.Point(221, 245);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(478, 5);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(67, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(145, 79);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
@@ -420,40 +430,40 @@ namespace WinFormMitAllenControls
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(221, 281);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(478, 94);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(133, 65);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(288, 160);
             this.tableLayoutPanel1.TabIndex = 21;
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(221, 350);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.richTextBox1.Location = new System.Drawing.Point(478, 264);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(68, 64);
+            this.richTextBox1.Size = new System.Drawing.Size(143, 151);
             this.richTextBox1.TabIndex = 17;
             this.richTextBox1.Text = "Hallo Welt";
             // 
             // propertyGrid1
             // 
-            this.propertyGrid1.Location = new System.Drawing.Point(411, 2);
-            this.propertyGrid1.Margin = new System.Windows.Forms.Padding(2);
+            this.propertyGrid1.Location = new System.Drawing.Point(478, 425);
+            this.propertyGrid1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.propertyGrid1.Name = "propertyGrid1";
             this.propertyGrid1.SelectedObject = this.panel1;
-            this.propertyGrid1.Size = new System.Drawing.Size(211, 224);
+            this.propertyGrid1.Size = new System.Drawing.Size(457, 552);
             this.propertyGrid1.TabIndex = 15;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(411, 228);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(478, 982);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 13);
+            this.label2.Size = new System.Drawing.Size(250, 32);
             this.label2.TabIndex = 20;
             this.label2.Text = "performanceCounter1";
             // 
@@ -478,33 +488,33 @@ namespace WinFormMitAllenControls
             this.columnHeader3,
             this.columnHeader4});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            listViewGroup1.Header = "ListViewGroup";
-            listViewGroup1.Name = "listViewGroup1";
-            listViewGroup2.Header = "ListViewGroup";
-            listViewGroup2.Name = "listViewGroup2";
-            listViewGroup3.Header = "ListViewGroup";
-            listViewGroup3.Name = "listViewGroup3";
+            listViewGroup4.Header = "ListViewGroup";
+            listViewGroup4.Name = "listViewGroup1";
+            listViewGroup5.Header = "ListViewGroup";
+            listViewGroup5.Name = "listViewGroup2";
+            listViewGroup6.Header = "ListViewGroup";
+            listViewGroup6.Name = "listViewGroup3";
             this.listView1.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup1,
-            listViewGroup2,
-            listViewGroup3});
+            listViewGroup4,
+            listViewGroup5,
+            listViewGroup6});
             this.listView1.HideSelection = false;
-            listViewItem1.StateImageIndex = 0;
-            listViewItem2.StateImageIndex = 0;
-            listViewItem3.StateImageIndex = 0;
-            listViewItem4.StateImageIndex = 0;
-            listViewItem5.StateImageIndex = 0;
+            listViewItem6.StateImageIndex = 0;
+            listViewItem7.StateImageIndex = 0;
+            listViewItem8.StateImageIndex = 0;
+            listViewItem9.StateImageIndex = 0;
+            listViewItem10.StateImageIndex = 0;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2,
-            listViewItem3,
-            listViewItem4,
-            listViewItem5});
+            listViewItem6,
+            listViewItem7,
+            listViewItem8,
+            listViewItem9,
+            listViewItem10});
             this.listView1.LargeImageList = this.imageList1;
-            this.listView1.Location = new System.Drawing.Point(199, 2);
-            this.listView1.Margin = new System.Windows.Forms.Padding(2);
+            this.listView1.Location = new System.Drawing.Point(426, 5);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1082, 608);
+            this.listView1.Size = new System.Drawing.Size(2351, 1537);
             this.listView1.SmallImageList = this.imageList1;
             this.listView1.StateImageList = this.imageList1;
             this.listView1.TabIndex = 11;
@@ -512,6 +522,7 @@ namespace WinFormMitAllenControls
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
@@ -520,8 +531,8 @@ namespace WinFormMitAllenControls
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(1291, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
+            this.menuStrip1.Size = new System.Drawing.Size(1297, 42);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -539,7 +550,7 @@ namespace WinFormMitAllenControls
             this.toolStripSeparator2,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 22);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(72, 42);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // newToolStripMenuItem
@@ -548,7 +559,7 @@ namespace WinFormMitAllenControls
             this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(294, 44);
             this.newToolStripMenuItem.Text = "&New";
             // 
             // openToolStripMenuItem
@@ -557,13 +568,13 @@ namespace WinFormMitAllenControls
             this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(294, 44);
             this.openToolStripMenuItem.Text = "&Open";
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(143, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(291, 6);
             // 
             // saveToolStripMenuItem
             // 
@@ -571,19 +582,19 @@ namespace WinFormMitAllenControls
             this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(294, 44);
             this.saveToolStripMenuItem.Text = "&Save";
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(294, 44);
             this.saveAsToolStripMenuItem.Text = "Save &As";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(143, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(291, 6);
             // 
             // printToolStripMenuItem
             // 
@@ -591,7 +602,7 @@ namespace WinFormMitAllenControls
             this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(294, 44);
             this.printToolStripMenuItem.Text = "&Print";
             // 
             // printPreviewToolStripMenuItem
@@ -599,18 +610,18 @@ namespace WinFormMitAllenControls
             this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
             this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(294, 44);
             this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(143, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(291, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(294, 44);
             this.exitToolStripMenuItem.Text = "E&xit";
             // 
             // editToolStripMenuItem
@@ -625,27 +636,27 @@ namespace WinFormMitAllenControls
             this.toolStripSeparator4,
             this.selectAllToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 22);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(75, 42);
             this.editToolStripMenuItem.Text = "&Edit";
             // 
             // undoToolStripMenuItem
             // 
             this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
             this.undoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.undoToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.undoToolStripMenuItem.Size = new System.Drawing.Size(289, 44);
             this.undoToolStripMenuItem.Text = "&Undo";
             // 
             // redoToolStripMenuItem
             // 
             this.redoToolStripMenuItem.Name = "redoToolStripMenuItem";
             this.redoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
-            this.redoToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.redoToolStripMenuItem.Size = new System.Drawing.Size(289, 44);
             this.redoToolStripMenuItem.Text = "&Redo";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(141, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(286, 6);
             // 
             // cutToolStripMenuItem
             // 
@@ -653,7 +664,7 @@ namespace WinFormMitAllenControls
             this.cutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
             this.cutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(289, 44);
             this.cutToolStripMenuItem.Text = "Cu&t";
             // 
             // copyToolStripMenuItem
@@ -662,7 +673,7 @@ namespace WinFormMitAllenControls
             this.copyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(289, 44);
             this.copyToolStripMenuItem.Text = "&Copy";
             // 
             // pasteToolStripMenuItem
@@ -671,18 +682,18 @@ namespace WinFormMitAllenControls
             this.pasteToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
             this.pasteToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(289, 44);
             this.pasteToolStripMenuItem.Text = "&Paste";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(141, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(286, 6);
             // 
             // selectAllToolStripMenuItem
             // 
             this.selectAllToolStripMenuItem.Name = "selectAllToolStripMenuItem";
-            this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(289, 44);
             this.selectAllToolStripMenuItem.Text = "Select &All";
             // 
             // toolsToolStripMenuItem
@@ -691,19 +702,19 @@ namespace WinFormMitAllenControls
             this.customizeToolStripMenuItem,
             this.optionsToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 22);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(90, 42);
             this.toolsToolStripMenuItem.Text = "&Tools";
             // 
             // customizeToolStripMenuItem
             // 
             this.customizeToolStripMenuItem.Name = "customizeToolStripMenuItem";
-            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(261, 44);
             this.customizeToolStripMenuItem.Text = "&Customize";
             // 
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(261, 44);
             this.optionsToolStripMenuItem.Text = "&Options";
             // 
             // helpToolStripMenuItem
@@ -715,36 +726,36 @@ namespace WinFormMitAllenControls
             this.toolStripSeparator5,
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(85, 42);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // contentsToolStripMenuItem
             // 
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
-            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(245, 44);
             this.contentsToolStripMenuItem.Text = "&Contents";
             // 
             // indexToolStripMenuItem
             // 
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(245, 44);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(245, 44);
             this.searchToolStripMenuItem.Text = "&Search";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(119, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(242, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(245, 44);
             this.aboutToolStripMenuItem.Text = "&About...";
             // 
             // notifyIcon1
@@ -769,22 +780,23 @@ namespace WinFormMitAllenControls
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1291, 638);
+            this.tabControl1.Size = new System.Drawing.Size(1297, 790);
             this.tabControl1.TabIndex = 19;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.flowLayoutPanel1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage1.Location = new System.Drawing.Point(8, 39);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage1.Size = new System.Drawing.Size(1283, 612);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage1.Size = new System.Drawing.Size(2781, 1547);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Controls";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -793,11 +805,11 @@ namespace WinFormMitAllenControls
             // 
             this.tabPage2.Controls.Add(this.listView1);
             this.tabPage2.Controls.Add(this.treeView1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage2.Location = new System.Drawing.Point(8, 39);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage2.Size = new System.Drawing.Size(1283, 612);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage2.Size = new System.Drawing.Size(2781, 1547);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "TreeView ListView";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -805,52 +817,61 @@ namespace WinFormMitAllenControls
             // treeView1
             // 
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.treeView1.Location = new System.Drawing.Point(2, 2);
-            this.treeView1.Margin = new System.Windows.Forms.Padding(2);
+            this.treeView1.Location = new System.Drawing.Point(4, 5);
+            this.treeView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Node1";
-            treeNode1.Text = "Node1";
-            treeNode2.Name = "Node2";
-            treeNode2.Text = "Node2";
-            treeNode3.Name = "Node0";
-            treeNode3.Text = "Node0";
-            treeNode4.Name = "Node4";
-            treeNode4.Text = "Node4";
-            treeNode5.Name = "Node5";
-            treeNode5.Text = "Node5";
-            treeNode6.Name = "Node3";
-            treeNode6.Text = "Node3";
-            treeNode7.Name = "Node7";
-            treeNode7.Text = "Node7";
-            treeNode8.Name = "Node8";
-            treeNode8.Text = "Node8";
-            treeNode9.Name = "Node6";
-            treeNode9.Text = "Node6";
+            treeNode10.Name = "Node1";
+            treeNode10.Text = "Node1";
+            treeNode11.Name = "Node2";
+            treeNode11.Text = "Node2";
+            treeNode12.Name = "Node0";
+            treeNode12.Text = "Node0";
+            treeNode13.Name = "Node4";
+            treeNode13.Text = "Node4";
+            treeNode14.Name = "Node5";
+            treeNode14.Text = "Node5";
+            treeNode15.Name = "Node3";
+            treeNode15.Text = "Node3";
+            treeNode16.Name = "Node7";
+            treeNode16.Text = "Node7";
+            treeNode17.Name = "Node8";
+            treeNode17.Text = "Node8";
+            treeNode18.Name = "Node6";
+            treeNode18.Text = "Node6";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode3,
-            treeNode6,
-            treeNode9});
+            treeNode12,
+            treeNode15,
+            treeNode18});
             this.treeView1.ShowNodeToolTips = true;
-            this.treeView1.Size = new System.Drawing.Size(197, 608);
+            this.treeView1.Size = new System.Drawing.Size(422, 1537);
             this.treeView1.TabIndex = 12;
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.printUserControl1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage3.Location = new System.Drawing.Point(8, 39);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1283, 612);
+            this.tabPage3.Size = new System.Drawing.Size(2781, 1547);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Print";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // printUserControl1
+            // 
+            this.printUserControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.printUserControl1.Location = new System.Drawing.Point(0, 0);
+            this.printUserControl1.Margin = new System.Windows.Forms.Padding(13, 15, 13, 15);
+            this.printUserControl1.Name = "printUserControl1";
+            this.printUserControl1.Size = new System.Drawing.Size(2781, 1547);
+            this.printUserControl1.TabIndex = 0;
+            // 
             // tabPage4
             // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage4.Location = new System.Drawing.Point(8, 39);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1283, 612);
+            this.tabPage4.Size = new System.Drawing.Size(2781, 1547);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Dialoge";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -858,14 +879,23 @@ namespace WinFormMitAllenControls
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.dataSetDataBindingUserControl1);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage5.Location = new System.Drawing.Point(8, 39);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage5.Size = new System.Drawing.Size(1283, 612);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage5.Size = new System.Drawing.Size(2781, 1547);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Dataset / DataBinding";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // dataSetDataBindingUserControl1
+            // 
+            this.dataSetDataBindingUserControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataSetDataBindingUserControl1.Location = new System.Drawing.Point(4, 5);
+            this.dataSetDataBindingUserControl1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.dataSetDataBindingUserControl1.Name = "dataSetDataBindingUserControl1";
+            this.dataSetDataBindingUserControl1.Size = new System.Drawing.Size(2773, 1537);
+            this.dataSetDataBindingUserControl1.TabIndex = 0;
             // 
             // toolStripContainer1
             // 
@@ -873,13 +903,13 @@ namespace WinFormMitAllenControls
             // toolStripContainer1.ContentPanel
             // 
             this.toolStripContainer1.ContentPanel.Controls.Add(this.tabControl1);
-            this.toolStripContainer1.ContentPanel.Margin = new System.Windows.Forms.Padding(2);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1291, 638);
+            this.toolStripContainer1.ContentPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1297, 790);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.toolStripContainer1.Location = new System.Drawing.Point(0, 24);
-            this.toolStripContainer1.Margin = new System.Windows.Forms.Padding(2);
+            this.toolStripContainer1.Location = new System.Drawing.Point(0, 42);
+            this.toolStripContainer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.toolStripContainer1.Name = "toolStripContainer1";
-            this.toolStripContainer1.Size = new System.Drawing.Size(1291, 670);
+            this.toolStripContainer1.Size = new System.Drawing.Size(1297, 832);
             this.toolStripContainer1.TabIndex = 20;
             this.toolStripContainer1.Text = "toolStripContainer1";
             // 
@@ -901,9 +931,9 @@ namespace WinFormMitAllenControls
             this.toolStripSeparator6,
             this.toolStripComboBox1,
             this.toolStripTextBox1});
-            this.toolStrip1.Location = new System.Drawing.Point(3, 0);
+            this.toolStrip1.Location = new System.Drawing.Point(6, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(658, 32);
+            this.toolStrip1.Size = new System.Drawing.Size(896, 42);
             this.toolStrip1.TabIndex = 0;
             // 
             // toolStripButton1
@@ -912,7 +942,7 @@ namespace WinFormMitAllenControls
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(28, 29);
+            this.toolStripButton1.Size = new System.Drawing.Size(46, 36);
             this.toolStripButton1.Text = "toolStripButton1";
             // 
             // toolStripButton2
@@ -920,19 +950,19 @@ namespace WinFormMitAllenControls
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(122, 29);
+            this.toolStripButton2.Size = new System.Drawing.Size(218, 36);
             this.toolStripButton2.Text = "toolStripButton2";
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(86, 29);
+            this.toolStripLabel1.Size = new System.Drawing.Size(174, 36);
             this.toolStripLabel1.Text = "toolStripLabel1";
             // 
             // toolStripProgressBar1
             // 
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 29);
+            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 36);
             // 
             // toolStripSplitButton1
             // 
@@ -942,13 +972,13 @@ namespace WinFormMitAllenControls
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
-            this.toolStripSplitButton1.Size = new System.Drawing.Size(40, 29);
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(51, 36);
             this.toolStripSplitButton1.Text = "toolStripSplitButton1";
             // 
             // splitButtonToolStripMenuItem
             // 
             this.splitButtonToolStripMenuItem.Name = "splitButtonToolStripMenuItem";
-            this.splitButtonToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.splitButtonToolStripMenuItem.Size = new System.Drawing.Size(268, 44);
             this.splitButtonToolStripMenuItem.Text = "SplitButton";
             // 
             // toolStripDropDownButton1
@@ -959,29 +989,30 @@ namespace WinFormMitAllenControls
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(37, 29);
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(46, 36);
             this.toolStripDropDownButton1.Text = "toolStripDropDownButton1";
             // 
             // dropDownButtonToolStripMenuItem
             // 
             this.dropDownButtonToolStripMenuItem.Name = "dropDownButtonToolStripMenuItem";
-            this.dropDownButtonToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.dropDownButtonToolStripMenuItem.Size = new System.Drawing.Size(336, 44);
             this.dropDownButtonToolStripMenuItem.Text = "DropDownButton";
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 32);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 42);
             // 
             // toolStripComboBox1
             // 
             this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 32);
+            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 42);
             // 
             // toolStripTextBox1
             // 
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 32);
+            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 42);
             // 
             // statusStrip1
             // 
@@ -991,23 +1022,23 @@ namespace WinFormMitAllenControls
             this.toolStripProgressBar2,
             this.toolStripDropDownButton2,
             this.toolStripSplitButton2});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 664);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 817);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 9, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1291, 30);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 20, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1297, 57);
             this.statusStrip1.TabIndex = 21;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(118, 25);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(238, 47);
             this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
             // toolStripProgressBar2
             // 
             this.toolStripProgressBar2.Name = "toolStripProgressBar2";
-            this.toolStripProgressBar2.Size = new System.Drawing.Size(67, 24);
+            this.toolStripProgressBar2.Size = new System.Drawing.Size(145, 45);
             // 
             // toolStripDropDownButton2
             // 
@@ -1017,13 +1048,13 @@ namespace WinFormMitAllenControls
             this.toolStripDropDownButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton2.Image")));
             this.toolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton2.Name = "toolStripDropDownButton2";
-            this.toolStripDropDownButton2.Size = new System.Drawing.Size(37, 28);
+            this.toolStripDropDownButton2.Size = new System.Drawing.Size(46, 53);
             this.toolStripDropDownButton2.Text = "toolStripDropDownButton2";
             // 
             // droDownButtonToolStripMenuItem
             // 
             this.droDownButtonToolStripMenuItem.Name = "droDownButtonToolStripMenuItem";
-            this.droDownButtonToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.droDownButtonToolStripMenuItem.Size = new System.Drawing.Size(322, 44);
             this.droDownButtonToolStripMenuItem.Text = "DroDownButton";
             // 
             // toolStripSplitButton2
@@ -1034,41 +1065,106 @@ namespace WinFormMitAllenControls
             this.toolStripSplitButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton2.Image")));
             this.toolStripSplitButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton2.Name = "toolStripSplitButton2";
-            this.toolStripSplitButton2.Size = new System.Drawing.Size(40, 28);
+            this.toolStripSplitButton2.Size = new System.Drawing.Size(51, 53);
             this.toolStripSplitButton2.Text = "toolStripSplitButton2";
             // 
             // splitButtonToolStripMenuItem1
             // 
             this.splitButtonToolStripMenuItem1.Name = "splitButtonToolStripMenuItem1";
-            this.splitButtonToolStripMenuItem1.Size = new System.Drawing.Size(133, 22);
+            this.splitButtonToolStripMenuItem1.Size = new System.Drawing.Size(268, 44);
             this.splitButtonToolStripMenuItem1.Text = "SplitButton";
             // 
-            // dataSetDataBindingUserControl1
+            // tabPage6
             // 
-            this.dataSetDataBindingUserControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataSetDataBindingUserControl1.Location = new System.Drawing.Point(2, 2);
-            this.dataSetDataBindingUserControl1.Margin = new System.Windows.Forms.Padding(1);
-            this.dataSetDataBindingUserControl1.Name = "dataSetDataBindingUserControl1";
-            this.dataSetDataBindingUserControl1.Size = new System.Drawing.Size(1279, 608);
-            this.dataSetDataBindingUserControl1.TabIndex = 0;
+            this.tabPage6.Controls.Add(this.flowLayoutPanel2);
+            this.tabPage6.Location = new System.Drawing.Point(8, 46);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage6.Size = new System.Drawing.Size(1281, 736);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "tabPage6";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // printUserControl1
+            // button2
             // 
-            this.printUserControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.printUserControl1.Location = new System.Drawing.Point(0, 0);
-            this.printUserControl1.Name = "printUserControl1";
-            this.printUserControl1.Size = new System.Drawing.Size(1283, 612);
-            this.printUserControl1.TabIndex = 0;
+            this.button2.AutoSize = true;
+            this.button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button2.Location = new System.Drawing.Point(3, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(440, 42);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "Abbechen efwwekfj nwekjfnwe kjfnwef";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(449, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(258, 138);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "button2";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.AutoSize = true;
+            this.flowLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.flowLayoutPanel2.Controls.Add(this.button2);
+            this.flowLayoutPanel2.Controls.Add(this.button3);
+            this.flowLayoutPanel2.Controls.Add(this.button4);
+            this.flowLayoutPanel2.Controls.Add(this.button5);
+            this.flowLayoutPanel2.Controls.Add(this.button6);
+            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 4);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1275, 292);
+            this.flowLayoutPanel2.TabIndex = 1;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(713, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(258, 138);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "button2";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(977, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(258, 138);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "button2";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(3, 150);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(258, 138);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "button2";
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1291, 694);
+            this.ClientSize = new System.Drawing.Size(1297, 874);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStripContainer1);
             this.Controls.Add(this.menuStrip1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.contextMenuStrip1.ResumeLayout(false);
@@ -1096,6 +1192,10 @@ namespace WinFormMitAllenControls
             this.toolStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.flowLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1203,6 +1303,13 @@ namespace WinFormMitAllenControls
         private DataSetDataBindingUserControl dataSetDataBindingUserControl1;
         private System.Windows.Forms.ToolStripMenuItem halloIchBinDasContextmenüToolStripMenuItem;
         private PrintUserControl printUserControl1;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
