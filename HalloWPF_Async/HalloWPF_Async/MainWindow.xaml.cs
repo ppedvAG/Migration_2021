@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Threading;
 using System.Threading.Tasks;
@@ -56,5 +57,19 @@ namespace HalloWPF_Async
             }
 
         }
+
+        private void StartVoll(object sender, RoutedEventArgs e)
+        {
+            List<Person> personen = new List<Person>();
+            while (true)
+                personen.Add(new Person() { Name = $"Fred {Guid.NewGuid()}" });
+        }
+    }
+
+    class Person
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime GebDatum { get; set; }
     }
 }

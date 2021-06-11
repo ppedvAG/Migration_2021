@@ -13,5 +13,6 @@
         <Button Click="Start">Start</Button>
         <ProgressBar Name="pb1" Height="22" />
         <Button Click="StartAsync" Content="Start Async/Await" />
+        <Button Click="StartVoll" Content="Mach Voll" />
     </StackPanel>
 </Window>
