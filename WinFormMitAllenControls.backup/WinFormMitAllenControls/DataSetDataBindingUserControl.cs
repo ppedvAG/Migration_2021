@@ -15,21 +15,7 @@ namespace WinFormMitAllenControls
         public DataSetDataBindingUserControl()
         {
             InitializeComponent();
-            Load += DataSetDataBindingUserControl_Load;
-       
-        }
-
-        private void DataSetDataBindingUserControl_Load(object sender, EventArgs e)
-        {
-            try
-            {
-
-                employeesTableAdapter.Fill(dataSet1.Employees);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Schade: {ex.Message}");
-            }
+            employeesTableAdapter.Fill(dataSet1.Employees);
         }
 
         private void employeesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
