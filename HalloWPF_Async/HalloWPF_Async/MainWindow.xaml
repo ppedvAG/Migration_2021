@@ -10,7 +10,7 @@
     Height="450"
     mc:Ignorable="d">
     <StackPanel Margin="8">
-        <Button Click="Start">Start</Button>
+        <Button Click="Start" Content="Start" />
         <ProgressBar Name="pb1" Height="22" />
         <Button Click="StartAsync" Content="Start Async/Await" />
         <Button Click="StartVoll" Content="Mach Voll" />
